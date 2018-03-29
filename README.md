@@ -22,7 +22,6 @@ The app is created on a new React-based rendition of the New York Times Article 
 ![Giphy](public/img/removearticles.gif)
 
 
-
 ## Technologies used 
 - Node.js
 - React
