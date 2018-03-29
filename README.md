@@ -2,7 +2,7 @@
 
 
 ## Overview
-The app is created on a new React-based rendition of the New York Times Article Search application. The included React components, work with helper/util functions, and utilize the React mounting lifecycle to query and display articles based on user searches. The users can save articles using Node, Express and MongoDB.
+The app is created on a new React-based rendition of the New York Times Article Search application. The app included React components, work with helper/util functions, and utilize the React mounting lifecycle to query and display articles based on user searches. The users can save articles using Node, Express and MongoDB.
 
 ## To Run
 ```yarn install```
