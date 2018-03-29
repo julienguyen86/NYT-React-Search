@@ -83,5 +83,4 @@ var Query = React.createClass({
 });
 
 
-// Export the component back for use in Main file
 module.exports = Query;

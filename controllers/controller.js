@@ -7,7 +7,6 @@ var router = express.Router();
 var Article = require('../models/Article.js');
 
 
-
 // Main GET 
 router.get("/", function(req, res) {
   res.sendFile(process.cwd() + "/public/index.html");
@@ -78,6 +77,4 @@ router.get("*", function(req, res) {
 });
 
 
-// ================================
-// Export Router to Server.js
 module.exports = router;

@@ -20,8 +20,6 @@ app.use(express.static(process.cwd() + '/public'));
 
 
 // Database Configuration with Mongoose
-// ---------------------------------------------------------------------------------------------------------------
-// Connect to localhost if not a production environment
 if(process.env.NODE_ENV == 'production'){
   // Gotten using `heroku config | grep MONGODB_URI` command in Command Line
   mongoose.connect(' mongodb://heroku_95z4jc4s:83asnuel7fo4vjkda3i3c6029m@ds227119.mlab.com:27119/heroku_95z4jc4s');
